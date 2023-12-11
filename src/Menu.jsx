@@ -10,7 +10,7 @@ const Menu = ({item}) => {
 
     return (
         
-            <a href={item?.uri} key={item?.id} className="text-gray-300 p-1 rounded-full hover:text-gray-800 cursor-pointer hover:bg-[#00FF7D] relative" 
+            <a href={item?.uri} key={item?.id} className="text-gray-300 p-1 rounded-full hover:text-gray-800 cursor-pointer hover:bg-[#FFF1B0] relative" 
           onMouseEnter={()=>setIsHover(true)}
           onMouseLeave={()=>setIsHover(false)}
           >

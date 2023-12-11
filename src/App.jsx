@@ -17,7 +17,7 @@ function App() {
       {/* skill container */}
 
       {/* project container */}
-<Project></Project>
+      <Project></Project>
       {/* contact container */}
 
       {/* footer container */}
