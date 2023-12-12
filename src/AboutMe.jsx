@@ -13,13 +13,15 @@ import './App.css'
 
 const AboutMe = () => {
     return (
-        <div id="about" className="h-screen">
+        <div id="about" className=" my-16">
             <section className="text-gray-600 body-font">
                 <div className="container flex flex-wrap  mx-auto items-center">
                     <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
-                        <h2 className=" font-bold text-[#EB671C] tracking-wider text-4xl mb-3">About me</h2>
+                        <h2 className=" font-bold text-[#FFF1B0] tracking-wider text-4xl mb-10">About me</h2>
 
-                        <img src="https://nus.edu.sg/osa/images/default-source/osa/1.1/hostel-admission/mealplans.jpg?sfvrsn=ea81ea7a_2" alt="" />
+                        <p className='text-xl text-[#bab080]'>
+                        I am a MERN stack developer specializing in frontend development for scalable web apps. I have basic idea of backend. I am committed to creating user friendly websites. I use html, css, tailwind css, daisy ui, react-js, firebase, vite, react-router-dom etc for frontend development. For backend development use express-js, mongoDB, cors, dot-env, JWT etc. My next aim is to learn Next-js, 3-js, SQL, Material Ui etc. I like to see myself as a full stack developer.
+                        </p>
                     </div>
                     <div className="flex flex-col md:w-1/2 md:pl-12 mx-auto">
                         <h2 className=" font-bold text-[#FFF1B0] mx-auto tracking-wider text-4xl mb-20">My Skills</h2>

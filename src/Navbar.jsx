@@ -2,7 +2,6 @@ import {
   FaDiagramProject,
   FaEnvelope,
   FaHouse,
-  FaRenren,
   FaUser,
 } from "react-icons/fa6";
 import Menu from "./Menu";
@@ -24,12 +23,6 @@ const Navbar = () => {
       uri: "#about",
       Icon: <FaUser></FaUser>,
       name: "About",
-    },
-    {
-      id: "skills",
-      uri: "#skills",
-      Icon: <FaRenren></FaRenren>,
-      name: "Skills",
     },
     {
       id: "projects",
