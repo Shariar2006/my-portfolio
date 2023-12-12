@@ -46,12 +46,11 @@ const Home = () => {
                     src="https://i.ibb.co/ScpqWSt/p-10.jpg" className="w-1/2 lg:w-1/4 rounded-full shadow-lg shadow-[#FFF1B0]"
                 />
 
-                {/* <img src="https://i.ibb.co/ScpqWSt/p-10.jpg" className="w-1/2 lg:w-1/4 rounded-full shadow-lg shadow-[#FFF1B0]" /> */}
 
                 <div className="lg:p-28">
 
                     <h1 className="text-2xl font-bold text-gray-300">Hello, It's me <br /> <span className="text-5xl text-gray-300 font-bold">Shariar Nafis</span></h1>
-                    <h1 className="text-2xl font-bold text-gray-300 mt-3">And I'm a <span className="text-[#FFF1B0]">MERN Stack</span></h1>
+                    <h1 className="text-2xl font-bold text-gray-300 mt-3">And I'm a <span className="text-[#FFF1B0]">MERN Stack Developer</span></h1>
                     <p className="py-6 text-gray-300">I am a Maroon Stack Developer specializing in frontend development for scalable web apps. I have basic idea of backend. I am committed to creating user friendly websites. Now I'm exploring Next.js. I like to see myself as a full stack developer.</p>
                     <a href={resume} download="Resume">
                         <button className="btn border border-[#FFF1B0] text-[#FFF1B0] hover:bg-[#FFF1B0] hover:text-[#1D232A] font-semibold bg-none">Download Resume</button>

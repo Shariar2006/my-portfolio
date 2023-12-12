@@ -1,4 +1,5 @@
 
+import AboutMe from './AboutMe'
 import './App.css'
 import Home from './Home'
 import Navbar from './Navbar'
@@ -14,8 +15,8 @@ function App() {
 
       {/* home container */}
       <Home></Home>
-      {/* skill container */}
-
+      {/* about container */}
+      <AboutMe></AboutMe>
       {/* project container */}
       <Project></Project>
       {/* contact container */}
