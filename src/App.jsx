@@ -10,7 +10,7 @@ import Project from './Project'
 function App() {
 
   return (
-    <div>
+    <div className='max-w-7xl mx-auto p-8'>
       {/* navbar */}
       <Navbar></Navbar>
 
@@ -21,9 +21,9 @@ function App() {
       {/* project container */}
       <Project></Project>
       {/* contact container */}
-<ContactMe></ContactMe>
+      <ContactMe></ContactMe>
       {/* footer container */}
-<Footer></Footer>
+      <Footer></Footer>
     </div>
   )
 }

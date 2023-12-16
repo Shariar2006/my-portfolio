@@ -27,7 +27,7 @@ const ContactMe = () => {
     return (
         <div id="contact" className='flex flex-col justify-center items-center mt-20 my-10 mx-auto text-[#FFF1B0]'>
             <h1 className='text-2xl font-bold'>Contact Me</h1>
-            <form className='relative duration-200 backdrop-blur-md rounded-lg mt-5 px-5 py-3 border border-[rgba(255,255,255,0.3)]' ref={form} onSubmit={sendEmail}>
+            <form className='relative duration-200 backdrop-blur-md rounded-lg mt-5 px-5 py-3 border border-[rgba(255,255,255,0.3)] shadow-lg shadow-[#FFF1B0]' ref={form} onSubmit={sendEmail}>
                 <div className="form-control">
                     <label>Name</label>
                     <input className=" input input-bordered text-[#FFF1B0] w-80" type="text" name="user_name" />

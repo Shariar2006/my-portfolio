@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  background-image: url('https://i.ibb.co/0hMFwqH/paul-volkmer-f-X-q-Ws-Xl5x8-unsplash.jpg');
+  background-attachment: fixed;
+  background-size: cover;
 }

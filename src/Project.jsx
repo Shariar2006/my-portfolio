@@ -27,7 +27,7 @@ const Project = () => {
                     <a href="https://stack-jobs.surge.sh/">
                         <img className="h-full cursor-pointer" src="https://i.ibb.co/9gV70FW/stack-jobs.png" alt="" />
                     </a>
-                    <div className="mt-2 mb-3 text-xl">
+                    <div className="mt-2 mb-4 text-xl">
                         <h1 className="flex gap-5 items-center">Client Site Code: <a href="https://github.com/Shariar2006/stack-jobs-client"><FaUser></FaUser></a></h1>
                         <h1 className="flex gap-5 items-center">Server Site Code: <a href="https://github.com/Shariar2006/stack-jobs-server"><BsServer></BsServer></a></h1>
                     </div>
