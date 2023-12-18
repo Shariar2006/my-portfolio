@@ -1,0 +1,34 @@
+.projects {
+    position: relative;
+
+    .progres {
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding-top: 50px;
+        text-align: center;
+        color: #FFF1B0;
+        font-weight: 700;
+        font-size: 36px;
+
+        .progresBar {
+            height: 10px;
+            background-color: #FFF1B0;
+        }
+    }
+}
+
+.wrapper a {
+    transition: .3s;
+}
+
+.wrapper a:hover {
+    background-color: #fcefb5;
+    color: black;
+    box-shadow: 0 0 5px #fcefb5,
+                0 0 25px #fcefb5,
+                0 0 50px #fcefb5,
+                0 0 200px #fcefb5;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, #0005);
+    border: none;
+}

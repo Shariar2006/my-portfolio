@@ -5,7 +5,7 @@ import ContactMe from './ContactMe'
 import Footer from './Footer'
 import Home from './Home'
 import Navbar from './Navbar'
-import Project from './Project'
+import Project from './Projects/Project'
 
 function App() {
 
