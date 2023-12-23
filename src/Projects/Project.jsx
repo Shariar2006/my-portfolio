@@ -1,8 +1,5 @@
 /* eslint-disable react/prop-types */
-import {
-    FaUser,
-} from "react-icons/fa6";
-import { BsServer } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa6";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion"
 import './project.css'
 import { useRef } from "react";
@@ -54,8 +51,8 @@ const Single = ({ project }) => {
                 <p className="text-[#d8cc94]">{project?.desc}</p>
                 <div className="wrapper ">
                     <a href={project?.demo} className="btn mr-4 text-[#FFF1B0] border border-[#FFF1B0]">See Demo</a>
-                    <a href={project?.client} className="btn mr-4 text-[#FFF1B0] border border-[#FFF1B0]">Client Site</a>
-                    <a href={project?.server} className="btn mr-4 text-[#FFF1B0] border border-[#FFF1B0]">Server Site</a>
+                    <a href={project?.client} className="btn mr-4 text-[#FFF1B0] border border-[#FFF1B0]">Client Site <FaGithub></FaGithub></a>
+                    <a href={project?.server} className="btn mr-4 text-[#FFF1B0] border border-[#FFF1B0]">Server Site <FaGithub></FaGithub></a>
                 </div>
             </motion.div>
         </div>

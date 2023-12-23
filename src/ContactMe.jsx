@@ -19,7 +19,7 @@ const ContactMe = () => {
                     title: "Email send successfully",
                     showConfirmButton: false,
                     timer: 1500
-                  });
+                });
             }, (error) => {
                 console.log(error.text);
             });
@@ -29,27 +29,29 @@ const ContactMe = () => {
         <div id="contact" className='flex flex-col justify-center items-center mt-96 my-10 mx-auto text-[#FFF1B0]'>
             <h1 className='text-2xl font-bold'>Contact Me</h1>
             <div className=' lg:flex lg:flex-row-reverse lg:gap-10'>
-            <img className='' src="https://i.ibb.co/dp5LJK9/output-onlinegiftools-1.gif" alt="" />
-            <form className='relative duration-200 backdrop-blur-md rounded-lg mt-5 px-5 py-3  shadow-lg' ref={form} onSubmit={sendEmail}>
-                <div className="form-control">
-                    <label>Name</label>
-                    <input className=" input input-bordered text-[#FFF1B0] w-full lg:w-96 rounded-sm" type="text" name="user_name" />
-                </div>
 
-                <div className="form-control">
-                    <label>Email</label>
-                    <input className=" input input-bordered text-[#FFF1B0] w-full lg:w-96 rounded-sm" type="email" name="user_email" />
-                </div>
+                <img data-aos="fade-left" className='' src="https://i.ibb.co/dp5LJK9/output-onlinegiftools-1.gif" alt="" />
 
-                <div className="form-control">
-                    <label>Message</label>
-                    <textarea className=" input input-bordered text-[#FFF1B0] w-full lg:w-96 rounded-sm h-24" name="message" />
-                </div>
+                <form data-aos="fade-right" className='relative duration-200 backdrop-blur-md rounded-lg mt-5 px-5 py-3  shadow-lg' ref={form} onSubmit={sendEmail}>
+                    <div className="form-control">
+                        <label>Name</label>
+                        <input className=" input input-bordered text-[#FFF1B0] w-full lg:w-96 rounded-sm" type="text" name="user_name" />
+                    </div>
+
+                    <div className="form-control">
+                        <label>Email</label>
+                        <input className=" input input-bordered text-[#FFF1B0] w-full lg:w-96 rounded-sm" type="email" name="user_email" />
+                    </div>
+
+                    <div className="form-control">
+                        <label>Message</label>
+                        <textarea className=" input input-bordered text-[#FFF1B0] w-full lg:w-96 rounded-sm h-24" name="message" />
+                    </div>
 
 
 
-                <input  className='btn border-none bg-[#FFF1B0] hover:bg-[#EB671C]  text-center text-[#EB671C] hover:text-[#FFF1B0] py-3 rounded-lg text-xl font-bold w-full my-4' type="submit" value="Send" />
-            </form>
+                    <input className='btn border-none bg-[#FFF1B0] hover:bg-[#EB671C]  text-center text-[#EB671C] hover:text-[#FFF1B0] py-3 rounded-lg text-xl font-bold w-full my-4' type="submit" value="Send" />
+                </form>
             </div>
         </div>
     );
