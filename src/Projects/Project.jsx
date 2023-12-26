@@ -12,7 +12,7 @@ const projects = [
         demo: "https://chef-place.web.app/",
         client: "https://github.com/Shariar2006/chef-place-client",
         server: "https://github.com/Shariar2006/chef-place-server",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, neque iusto? Placeat ipsam corrupti a dolorem vitae est totam? Tempora nemo laudantium veniam dolorum molestias ullam officiis doloribus omnis fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a officiis magnam fugiat at illo obcaecati perspiciatis pariatur. "
+        desc: " Chef's Place is a hostel food website. Here hostel food is controlled. There are 2 roles here.Used React-js, Tailwind CSS, Node-js, Express-js, MongoDB, Dot-env, Cors, Firebase, JWT, Stripe-js for payment method, and some npm packages."
     },
     {
         title: "Stack Jobs",
@@ -20,7 +20,7 @@ const projects = [
         demo: "https://stack-jobs.surge.sh/",
         client: "https://github.com/Shariar2006/stack-jobs-client",
         server: "https://github.com/Shariar2006/stack-jobs-server",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, neque iusto? Placeat ipsam corrupti a dolorem vitae est totam? Tempora nemo laudantium veniam dolorum molestias ullam officiis doloribus omnis fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a officiis magnam fugiat at illo obcaecati perspiciatis pariatur. "
+        desc: "Stack Jobs is a job-related website. Here a user can search for the job of his choice, post any job, and update his posted job. Used React-js, Tailwind CSS, Node-js, Express-js, MongoDB, Dot-env, Cors, Firebase, Cookie-Parser, JWT, and some npm packages."
     },
     {
         title: "Tec and Elec",
@@ -28,7 +28,7 @@ const projects = [
         demo: "https://technology-and-electronics.surge.sh/",
         client: "https://github.com/Shariar2006/technology-and-electronics-client",
         server: "https://github.com/Shariar2006/technology-and-electronics-server",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, neque iusto? Placeat ipsam corrupti a dolorem vitae est totam? Tempora nemo laudantium veniam dolorum molestias ullam officiis doloribus omnis fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis a officiis magnam fugiat at illo obcaecati perspiciatis pariatur. "
+        desc: "Tech and Elec is a brand shop website. Here a user can select his preferred brand, post any brand's product, and update his posted product. Used React-js, Tailwind CSS, Node-js, Express-js, MongoDB, Dot-env, Cors, Firebase, and some npm packages. "
     },
 ];
 
