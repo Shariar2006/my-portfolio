@@ -8,6 +8,8 @@ import css from './assets/css.png'
 import js from './assets/js.png'
 import react from './assets/react-js.png'
 import firebase from './assets/firebase.png'
+import mongoose from './assets/mongoose.png'
+import mui from './assets/mui.png'
 
 import './App.css'
 
@@ -30,15 +32,17 @@ const AboutMe = () => {
                             <img className='w-16 rounded-full' src={html} alt="" />
                             <img className='w-16 rounded-full' src={css} alt="" />
                             <img className='w-16 rounded-full' src={js} alt="" />
+                            <img className='w-16 rounded-full' src={react} alt="" />
                         </div>
                         <div className='flex mx-auto gap-5 my-5'>
-                            <img className='w-16 rounded-full' src={react} alt="" />
                             <img className='w-16 rounded-full' src={firebase} alt="" />
                             <img className='w-16 rounded-full' src={vute} alt="" />
                             <img className='w-16 rounded-full' src={tailwind} alt="" />
+                            <img className='w-16 rounded-full bg-[#232937]' src={mui} alt="" />
                         </div>
                         <div className='flex mx-auto gap-5'>
                         <img className='w-16 rounded-full' src={mongoDB} alt="" />
+                        <img className='w-16 rounded-full bg-[#232937]' src={mongoose} alt="" />
                             <img className='w-16 rounded-full' src={nodeJs} alt="" />
                             <img className='w-16 rounded-full' src={vsCode} alt="" />
                         </div>
