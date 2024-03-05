@@ -20,7 +20,7 @@ const AboutMe = () => {
                         <h2 className=" font-bold text-[#FFF1B0] tracking-wider text-4xl mb-10">About me</h2>
 
                         <p className='text-xl text-[#bab080]'>
-                        I am a MERN stack developer specializing in frontend development for scalable web apps. I have basic idea of backend. I am committed to creating user friendly websites. I use html, css, tailwind css, daisy ui, react-js, firebase, vite, react-router-dom etc for frontend development. For backend development use express-js, mongoDB, cors, dot-env, JWT etc. My next aim is to learn Next-js, 3-js, SQL, Material Ui etc. I like to see myself as a full stack developer.
+                        I am a MERN stack developer specializing in frontend development for scalable web apps. I have some idea of backend. I am committed to creating user friendly websites. I use html, css, tailwind css, daisy ui, MUi, react-js, firebase, vite, react-router-dom etc for frontend development. For backend development use express-js, mongoDB, mongoose, cors, dot-env, JWT etc. My next aim is to learn Next-js, 3-js, SQL, Material Ui etc. I like to see myself as a full stack developer.
                         </p>
                     </div>
                     <div className="flex flex-col md:w-1/2 md:pl-12 mx-auto">

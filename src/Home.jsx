@@ -54,7 +54,7 @@ const Home = () => {
                     <p className="py-6 text-gray-300">I am a MERN Stack Developer specializing in frontend development for scalable web apps. I have basic idea of backend. I am committed to creating user friendly websites. Now I'm exploring Next.js. I like to see myself as a full stack developer.</p>
 
                     <a href={resume} download="Shariar Alam Emon Resume">
-                        <button className="btn border border-[#FFF1B0] text-[#FFF1B0] hover:bg-[#FFF1B0] hover:text-[#1D232A] font-semibold bg-none">Download Resume</button>
+                        <button className="btn border border-[#FFF1B0] text-[#FFF1B0] hover:bg-[#FFF1B0] hover:text-[#1D232A] font-semibold bg-black">Download Resume</button>
                     </a>
 
                     <div className="flex mt-5 gap-10 text-xl cursor-pointer">
