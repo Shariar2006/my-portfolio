@@ -34,12 +34,12 @@ const Footer = () => {
             <footer className="footer footer-center p-10 text-primary-content">
                 <img src="https://i.ibb.co/ScpqWSt/p-10.jpg" className="w-28 rounded-full " alt="" />
                 <h1 className="text-2xl text-gray-300 font-bold">Shariar Nafis</h1>
-                
+
                 <div className="flex gap-10 text-xl cursor-pointer">
-                        {
-                            socials?.map((social, index) => <Social key={social.id} index={index} social={social}></Social>)
-                        }
-                    </div>
+                    {
+                        socials?.map((social, index) => <Social key={social.id} index={index} social={social}></Social>)
+                    }
+                </div>
 
             </footer>
         </div>
