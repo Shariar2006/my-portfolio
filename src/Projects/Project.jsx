@@ -25,7 +25,7 @@ const projects = [
     {
         title: "Stack Jobs",
         img: "https://i.ibb.co/9gV70FW/stack-jobs.png",
-        demo: "https://stack-jobs.surge.sh/",
+        demo: "https://stack-jods.netlify.app/",
         client: "https://github.com/Shariar2006/stack-jobs-client",
         server: "https://github.com/Shariar2006/stack-jobs-server",
         desc: "Stack Jobs is a job-related website. Here a user can search for the job of his choice, post any job, and update his posted job. Used React-js, Tailwind CSS, Node-js, Express-js, MongoDB, Dot-env, Cors, Firebase, Cookie-Parser, JWT, and some npm packages."

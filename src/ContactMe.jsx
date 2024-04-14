@@ -51,7 +51,7 @@ const ContactMe = () => {
                 console.log(error.text);
             });
     };
-    
+
 
     return (
         <div id="contact" className='flex flex-col justify-center items-center mt-96 my-10 mx-auto text-[#FFF1B0]'>
@@ -78,7 +78,7 @@ const ContactMe = () => {
 
                     <input className='btn border-none bg-[#FFF1B0] hover:bg-[#EB671C]  text-center text-[#EB671C] hover:text-[#FFF1B0] py-3 rounded-lg text-xl font-bold w-full mt-5 mb-4' type="submit" value="Send" />
                 </form>
-                <div className=''>
+                <div data-aos="fade-left" className=''>
                     <div className='gap-5'>
                         <MdOutlineLocationOn className='text-2xl border-2 border-[#FFF1B0] w-10 h-10 p-1 rounded-full   ' />
                         <p>Hat Gopalpur, Sadar Jhenidah, Jhenida, <br /> Dhaka, Bangladesh.</p>
@@ -91,11 +91,11 @@ const ContactMe = () => {
                         <PiPhoneCallLight className='text-2xl border-2 border-[#FFF1B0] w-10 h-10 p-1 rounded-full  ' />
                         <p>+880 1780-051028</p>
                     </div>
-                    <div className="flex gap-10 text-xl cursor-pointer">
-                    {
-                        socials?.map((social, index) => <Social key={social.id} index={index} social={social}></Social>)
-                    }
-                </div>
+                    {/* <div className="flex gap-10 text-xl cursor-pointer">
+                        {
+                            socials?.map((social, index) => <Social key={social.id} index={index} social={social}></Social>)
+                        }
+                    </div> */}
                 </div>
 
             </div>
