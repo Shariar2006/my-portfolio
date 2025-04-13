@@ -7,6 +7,12 @@ import { useRef } from "react";
 
 const projects = [
     {
+        title: "Brainic Mart",
+        img: "https://i.ibb.co.com/yFgHD2vV/Screenshot-2025-04-13-192744.png",
+        demo: "https://brainicmart.brainicsoft.xyz/",
+  desc: "Brainic Mart is a full-featured e-commerce platform developed during my internship. This is my company project. It includes product browsing, cart management, and order handling. Built using Next.js, TypeScript, Redux Toolkit (RTK Query), Node-js, Express-js, MongoDB, Dot-env, Cors, JWT and some npm packages. It offers a seamless shopping experience and a responsive, modern design. This was a company-level project developed under real-world scenarios."
+    },
+    {
         title: "Insight Forge",
         img: "https://i.ibb.co/smLsc5g/Screenshot-2024-03-05-174845.png",
         demo: "https://insight-forge-psi.vercel.app/",
@@ -21,15 +27,7 @@ const projects = [
         client: "https://github.com/Shariar2006/chef-place-client",
         server: "https://github.com/Shariar2006/chef-place-server",
         desc: " Chef's Place is a hostel food website. Here hostel food is controlled. There are 2 roles here.Used React-js, Tailwind CSS, Node-js, Express-js, MongoDB, Dot-env, Cors, Firebase, JWT, Stripe-js for payment method, and some npm packages."
-    },
-    {
-        title: "Stack Jobs",
-        img: "https://i.ibb.co/9gV70FW/stack-jobs.png",
-        demo: "https://stack-jods.netlify.app/",
-        client: "https://github.com/Shariar2006/stack-jobs-client",
-        server: "https://github.com/Shariar2006/stack-jobs-server",
-        desc: "Stack Jobs is a job-related website. Here a user can search for the job of his choice, post any job, and update his posted job. Used React-js, Tailwind CSS, Node-js, Express-js, MongoDB, Dot-env, Cors, Firebase, Cookie-Parser, JWT, and some npm packages."
-    },
+    }
 ];
 
 const Single = ({ project }) => {
@@ -49,10 +47,14 @@ const Single = ({ project }) => {
             <motion.div className="textContainer flex-1 space-y-5" style={{y}}>
                 <h2 className="text-3xl font-bold">{project?.title}</h2>
                 <p className="text-[#d8cc94]">{project?.desc}</p>
-                <div className="wrapper ">
-                    <a href={project?.demo} className="btn mr-4 bg-black text-[#FFF1B0] border border-[#FFF1B0]">See Demo</a>
-                    <a href={project?.client} className="btn mr-4 bg-black text-[#FFF1B0] border border-[#FFF1B0]">Client Site <FaGithub></FaGithub></a>
-                    <a href={project?.server} className="btn mr-4 bg-black text-[#FFF1B0] border border-[#FFF1B0]">Server Site <FaGithub></FaGithub></a>
+                <div className="wrapper">
+                    <a href={project?.demo} className="btn mr-4 bg-black text-[#FFF1B0] border border-[#FFF1B0]" rel="noreferrer" target="_blank">See Demo</a>
+                    {project?.client &&
+                    <a href={project?.client} className="btn mr-4 bg-black text-[#FFF1B0] border border-[#FFF1B0]" rel="noreferrer" target="_blank">Client Site <FaGithub></FaGithub></a>
+                    }
+                    {project?.server && 
+                    <a href={project?.server} className="btn mr-4 mt-4 md:mt-0 bg-black text-[#FFF1B0] border border-[#FFF1B0]" rel="noreferrer" target="_blank">Server Site <FaGithub></FaGithub></a>
+                    }
                 </div>
             </motion.div>
         </div>

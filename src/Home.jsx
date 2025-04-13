@@ -51,7 +51,7 @@ const Home = () => {
 
                     <h1 className="text-2xl font-bold text-gray-300">Hello, It's me <br /> <span className="text-5xl text-gray-300 font-bold">Shariar Alam Emon</span></h1>
                     <h1 className="text-2xl font-bold text-gray-300 mt-3">And I'm a <span className="text-[#FFF1B0]">MERN Stack Developer</span></h1>
-                    <p className="py-6 text-gray-300">I am a MERN Stack Developer specializing in frontend development for scalable web apps. I have basic idea of backend. I am committed to creating user friendly websites. Now I'm exploring Next.js. I like to see myself as a full stack developer.</p>
+                    <p className="py-6 text-gray-300">I am a MERN Stack Developer with around 1 year of experience, focused on building user-friendly and scalable web apps. Worked on real-world projects like Brainic Mart. Currently improving my skills in Next.js, TypeScript, Redux Toolkit, and Framer Motion. Eager to grow as a full-stack developer.</p>
 
                     <a href={resume} download="Shariar Alam Emon Resume">
                         <button className="btn border border-[#FFF1B0] text-[#FFF1B0] hover:bg-[#FFF1B0] hover:text-[#1D232A] font-semibold bg-black">Download Resume</button>

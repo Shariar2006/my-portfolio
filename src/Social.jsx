@@ -2,13 +2,14 @@
 import { AnimatePresence, motion } from "framer-motion"
 import { useState } from "react";
 
-const Social = ({ social, index }) => {
+const Social = ({ social }) => {
     const [isHover, setIsHover] = useState(false)
 
     return (
-        <a href={social?.url}
+        <a href={social?.url} 
         onMouseEnter={()=>setIsHover(true)}
         onMouseLeave={()=>setIsHover(false)}
+        target="_blank" rel="noreferrer"
         >
             <motion.div
         

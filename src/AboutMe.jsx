@@ -22,7 +22,7 @@ const AboutMe = () => {
                         <h2 className=" font-bold text-[#FFF1B0] tracking-wider text-4xl mb-10">About me</h2>
 
                         <p className='text-xl text-[#bab080]'>
-                        I am a MERN stack developer specializing in frontend development for scalable web apps. I have some idea of backend. I am committed to creating user friendly websites. I use html, css, tailwind css, daisy ui, MUi, react-js, firebase, vite, react-router-dom etc for frontend development. For backend development use express-js, mongoDB, mongoose, cors, dot-env, JWT etc. My next aim is to learn Next-js, 3-js, SQL, Material Ui etc. I like to see myself as a full stack developer.
+                        I am a MERN Stack Developer with around 1 year of hands-on experience, specializing in front-end development for scalable and user-friendly web applications. I also have practical knowledge of backend technologies. I’ve worked on real-world projects like BrainicMart, an e-commerce platform, which helped strengthen my development skills. Currently, I’m focusing on sharpening my expertise in modern tools such as Next.js, TypeScript, Redux Toolkit (RTK Query), and Framer Motion. I’m passionate about continuous learning and aim to grow as a well-rounded full-stack developer.
                         </p>
                     </div>
                     <div className="flex flex-col md:w-1/2 md:pl-12 mx-auto">
